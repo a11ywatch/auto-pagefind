@@ -197,7 +197,6 @@ Options:
   -V, --version                      Print version
 ```
 
-## Todo
+## CSP
 
-1. Allow passing in custom port output.
-2. Allow custom locale building folders for pagefind. In the meantime you can manually stitch the folders with `spider` and simply use `npx -y pagefind --source _temp_spider_downloads --bundle-dir public/_pagefind && cp -R _temp_spider_downloads/public/_pagefind public/` to perform the conversion.
+You need to add the following header if csp is enabled `'wasm-unsafe-eval'`.
