@@ -52,6 +52,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "auto-pagefind"
+version = "0.1.4"
+dependencies = [
+ "clap",
+]
+
+[[package]]
 name = "bitflags"
 version = "2.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -165,13 +172,6 @@ name = "linux-raw-sys"
 version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0"
-
-[[package]]
-name = "next-pagefind"
-version = "0.1.4"
-dependencies = [
- "clap",
-]
 
 [[package]]
 name = "once_cell"

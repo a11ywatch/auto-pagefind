@@ -1,6 +1,6 @@
 [package]
-name = "next-pagefind"
-description = "Pagefind for next.js non output export applications. Fully crawl and index your app in one command."
+name = "auto-pagefind"
+description = "Pagefind for servers. Great for next.js non output export applications. Fully crawl and index your app in one command."
 version = "0.1.4"
 edition = "2021"
 license = "MIT"
