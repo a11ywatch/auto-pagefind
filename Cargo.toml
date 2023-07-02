@@ -1,8 +1,9 @@
 [package]
 name = "next-pagefind"
 description = "Pagefind for next.js non output export applications. Fully crawl and index your app in one command."
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 license = "MIT"
 
 [dependencies]
+clap = { version = "4.3.10", features = ["derive"] }

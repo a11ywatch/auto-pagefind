@@ -1,6 +1,6 @@
 # next-pagefind
 
-Use [Pagefind](https://pagefind.app/) with next.js non static exports.
+Use [Pagefind](https://pagefind.app/) with any live server.
 
 ## Insallation
 
@@ -173,6 +173,24 @@ Inside your public folder add the following file `css/_pagefind.css` with the ma
 Next include the css before pagefind `<link href="/css/_pagefind.css" rel="stylesheet" />`.
 
 ![Example of pagefind being used with the A11yWatch blog](example.png)
+
+
+## Options
+
+Some optional options below.
+
+```
+next-pagefind --help
+Pagefind for next.js non output export applications. Fully crawl and index your app in one command.
+
+Usage: next-pagefind [OPTIONS]
+
+Options:
+  -d, --download-dir <DOWNLOAD_DIR>  The download directory for storing the static.html files
+  -u, --url <URL>                    The website url
+  -h, --help                         Print help
+  -V, --version                      Print version
+```
 
 ## Todo
 
