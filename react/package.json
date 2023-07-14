@@ -1,0 +1,31 @@
+{
+  "name": "pagefind-react",
+  "version": "0.0.1",
+  "description": "A pagefind React Component drop-in",
+  "main": "dist/pagefind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "keywords": [
+    "pagefind",
+    "pagefind-react"
+  ],
+  "author": "j-mendez <jeff@a11ywatch.com>",
+  "license": "MIT",
+  "optionalDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.1.6"
+  }
+}
