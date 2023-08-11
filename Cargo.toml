@@ -4,6 +4,7 @@ description = "Pagefind for servers. Great for next.js non output export applica
 version = "0.1.4"
 edition = "2021"
 license = "MIT"
+repository = "https://github.com/a11ywatch/auto-pagefind"
 
 [dependencies]
 clap = { version = "4.3.10", features = ["derive"] }
