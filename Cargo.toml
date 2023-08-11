@@ -1,10 +1,12 @@
 [package]
 name = "auto-pagefind"
 description = "Pagefind for servers. Great for next.js non output export applications. Fully crawl and index your app in one command."
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/a11ywatch/auto-pagefind"
+keywords = ["pagefind", "auto-pagefind", "search-website", "website-docs"]
+categories = ["command-line-utilities", "web-programming"]
 
 [dependencies]
 clap = { version = "4.3.10", features = ["derive"] }
